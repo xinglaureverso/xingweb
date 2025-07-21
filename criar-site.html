@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Criar Seu Site - xingweb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 style="color:#e60000;">🧬 Criar Site Personalizado</h1>
+    <nav><a href="index.html">⬅ Voltar</a></nav>
+  </header>
+  <main>
+    <form id="form-criar-site">
+      <input type="text" id="nome-site" placeholder="Nome do site" required><br><br>
+
+      <label>HTML:</label><br>
+      <textarea id="html-input" placeholder="Digite o HTML..." rows="6" required></textarea><br><br>
+
+      <label>CSS:</label><br>
+      <textarea id="css-input" placeholder="Digite o CSS..." rows="6"></textarea><br><br>
+
+      <label>JavaScript:</label><br>
+      <textarea id="js-input" placeholder="Digite o JavaScript..." rows="6"></textarea><br><br>
+
+      <button type="submit">Visualizar Site</button>
+    </form>
+
+    <h2>🔍 Prévia do seu site:</h2>
+    <iframe id="preview" style="width:100%; height:400px; border:1px solid #ccc;"></iframe>
+  </main>
+  <script src="criar-site.js"></script>
+</body>
+</html>

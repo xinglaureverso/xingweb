@@ -1,0 +1,47 @@
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding: 2rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 1rem;
+}
+
+h1 {
+  color: #e60000;
+  font-size: 2.5rem;
+}
+
+nav button {
+  background-color: #e60000;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form {
+  margin-top: 2rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  width: 50%;
+  font-size: 1rem;
+}
+
+button[type="submit"] {
+  background-color: #e60000;
+  color: white;
+  border: none;
+  padding: 0.5rem 1.2rem;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}

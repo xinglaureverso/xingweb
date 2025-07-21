@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>xingweb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>xingweb 🔎</h1>
+    <!-- ...conteúdo anterior... -->
+<nav>
+  <button id="menu-btn">☰ Menu</button>
+</nav>
+
+<div id="menu-lateral" class="menu-fechado">
+  <ul>
+    <li><a href="criar-site.html">Criar site</a></li>
+    <li><a href="privacidade.html">Privacidade</a></li>
+    <li><a href="configuracoes.html">Configurações</a></li>
+  </ul>
+</div>
+<!-- ...conteúdo seguinte... -->
+  </header>
+  <main>
+    <form id="search-form">
+      <input type="text" id="query" placeholder="Digite sua pesquisa..." required>
+      <button type="submit">Buscar</button>
+    </form>
+    <div id="results"></div>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
