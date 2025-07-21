@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Criar Conta - XingWeb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="login-container">
+      <h1 style="color:#e60000;">🆕 Criar Conta</h1>
+      <form id="form-criar">
+        <div class="campo">
+          <label for="nome">👤 Nome:</label><br>
+          <input type="text" id="nome" required>
+        </div>
+        <div class="campo">
+          <label for="email">📧 Email:</label><br>
+          <input type="email" id="email" required>
+        </div>
+        <div class="campo">
+          <label for="senha">🔒 Senha:</label><br>
+          <input type="password" id="senha" required>
+        </div>
+        <button type="submit">Cadastrar</button>
+      </form>
+      <p><a href="login.html">Já tem conta? Faça login</a></p>
+      <div id="feedback-criar"></div>
+    </div>
+  </main>
+  <script src="cadastrar.js"></script>
+</body>
+</html>

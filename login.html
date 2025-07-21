@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - XingWeb</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <div class="login-container">
+      <h1 style="color:#e60000;">🔐 Entrar no XingWeb</h1>
+      <form id="form-login">
+        <div class="campo">
+          <label for="email">📧 Email:</label><br>
+          <input type="email" id="email" required>
+        </div>
+        <div class="campo">
+          <label for="senha">🔒 Senha:</label><br>
+          <input type="password" id="senha" required>
+        </div>
+        <button type="submit">Entrar</button>
+      </form>
+      <p><a href="#">Esqueci minha senha</a></p>
+      <p>Não tem conta? <a href="#">Criar conta</a></p>
+      <div id="feedback-login"></div>
+    </div>
+  </main>
+  <script src="login.js"></script>
+</body>
+</html>
